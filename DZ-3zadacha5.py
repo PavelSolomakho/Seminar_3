@@ -20,7 +20,7 @@ def NegaFibonacci(n):
         return num2
 
 list = [0]
-userNumber = int(input('Enter any number: '))
+userNumber = int(input('Введите любое число: '))
 for e in range(1, userNumber + 1):
     list.append(Fibonacci(e))
     list.insert(0, NegaFibonacci(e))
